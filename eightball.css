@@ -3,23 +3,20 @@
     left:100px;
     top:100px;
 }
-#icirc {
+#inside {
     position:absolute;
     border-style: solid;
-    border: 3px;
     border-radius:50px;
     width:100px;
     height:100px;
     background-color:white;
     left:35px;
     top:50px;
-    z-index:1;
 }
-#ocirc {
+#outside {
     left:30px;
     position:absolute;
     border-style: solid;
-    border: 3px;
     border-radius:100px;
     width:200px;
     height:200px;
@@ -30,7 +27,6 @@
     left:60px;
     top:62px;
     font-size:350%;
-    z-index:2;
 }
 #res {
     position:absolute;

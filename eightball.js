@@ -25,7 +25,7 @@ result = function () {
     document.getElementById("res").innerHTML = "Answer:  " + messages[randomnumber];
 }
 
-$('#ocirc').click(function () {
+$('#outside').click(function () {
     $('.shake').effect("shake", {
         times: 8,
         direction: "up"
